@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop>
+    <product id="1" category="men">
+        <name>Low-crotch denim jeans</name>
+        <price>1490</price>
+        <image>Photo/4.jpg</image>
+    </product>
+    <product id="2" category="men">
+        <name>Hoodie</name>
+        <price>290</price>
+        <image>Photo/5.jpg</image>
+    </product>
+    <product id="3" category="men">
+        <name>Taped cotton jersey T-shirt</name>
+        <price>690</price>
+        <image>Photo/6.jpg</image>
+    </product>
+    <product id="4" category="men">
+        <name>Taped jersey sweatshirt</name>
+        <price>590</price>
+        <image>Photo/7.jpg</image>
+    </product>
+    <product id="5" category="men">
+        <name>Zip-up hoodie</name>
+        <price>2190</price>
+        <image>Photo/8.jpg</image>
+    </product>
+    <product id="6" category="men">
+        <name>Silk shirt with floral sleeves</name>
+        <price>450</price>
+        <image>Photo/9.jpg</image>
+    </product>
+    <product id="7" category="men">
+        <name>Denim jacket with fold-over collar</name>
+        <price>890</price>
+        <image>Photo/10.jpg</image>
+    </product>
+    <product id="8" category="men">
+        <name>Open knit sweater with zip neck</name>
+        <price>750</price>
+        <image>Photo/11.jpg</image>
+    </product>
+    <product id="9" category="men">
+        <name>Taped cotton jersey T-shirt</name>
+        <price>520</price>
+        <image>Photo/12.jpg</image>
+    </product>
+    <product id="10" category="men">
+        <name>V-neck sweater</name>
+        <price>480</price>
+        <image>Photo/13.jpg</image>
+    </product>
+    <product id="11" category="men">
+        <name>Taped denim shirt</name>
+        <price>1190</price>
+        <image>Photo/3.jpg</image>
+    </product>
+    <product id="12" category="men">
+        <name>Foiled cotton poplin shirt</name>
+        <price>540</price>
+        <image>Photo/rub.jpg</image>
+    </product>
+    <product id="13" category="women">
+        <name>Ruffled top</name>
+        <price>1490</price>
+        <image>Photo/20.jpg</image>
+    </product>
+    <product id="14" category="women">
+        <name>Bodysuit with floral sleeves</name>
+        <price>1290</price>
+        <image>Photo/21.jpg</image>
+    </product>
+    <product id="15" category="women">
+        <name>Cotton trench coat</name>
+        <price>2290</price>
+        <image>Photo/22.jpg</image>
+    </product>
+    <product id="16" category="women">
+        <name>Taped midi skirt</name>
+        <price>590</price>
+        <image>Photo/23.jpg</image>
+    </product>
+    <product id="17" category="women">
+        <name>Floral draped silk skirt</name>
+        <price>2190</price>
+        <image>Photo/24.jpg</image>
+    </product>
+    <product id="18" category="women">
+        <name>Wide-leg jeans</name>
+        <price>450</price>
+        <image>Photo/25.jpg</image>
+    </product>
+    <product id="19" category="women">
+        <name>Maxi denim coat</name>
+        <price>890</price>
+        <image>Photo/26.jpg</image>
+    </product>
+    <product id="20" category="women">
+        <name>Cotton jersey T-shirt</name>
+        <price>750</price>
+        <image>Photo/27.jpg</image>
+    </product>
+</shop>

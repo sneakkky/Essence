@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация — Essence</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header class="top-black-bar">
+    <a href="main.html" class="essence-logo">Essence</a>
+    <nav class="nav-buttons" aria-label="Главная навигация">
+        <a href="men.html" class="nav-btn">мужское</a>
+        <a href="women.html" class="nav-btn">женское</a>
+        <a href="cart.html" class="nav-btn" id="cartBtn">корзина</a>
+        <a href="register.html" class="register-btn-red">регистрация</a>
+    </nav>
+</header>
+
+<main class="register-page">
+    <section class="about-section" aria-labelledby="about-title">
+        <article class="about-text">
+            <h1 id="about-title" class="about-title">Про Нас</h1>
+            <div class="separator-line"></div>
+            <p class="about-description">
+                Essence — это концептуальное пространство, вдохновлённое философией Maison Margiela. 
+                Мы объединяем минимализм, деконструктивизм и avant-garde моду, предлагая curated-коллекции 
+                для тех, кто видит моду как искусство. Наша миссия — переосмыслить классику, сохраняя 
+                индивидуальность и анонимность бренда. Каждая вещь в нашем ассортименте — это история 
+                о деталях, фактурах и вневременной эстетике.
+            </p>
+            <p class="about-description">
+                От лимитированных линий до архивных переизданий — мы даём возможность прикоснуться 
+                к наследию одного из самых влиятельных домов моды, оставаясь при этом в стороне от 
+                шумных трендов. Присоединяйтесь к сообществу ценителей истинного стиля.
+            </p>
+        </article>
+        <figure class="about-image">
+            <img src="Photo/about.jpg" alt="Философия бренда Essence">
+            <figcaption class="visually-hidden">Essence</figcaption>
+        </figure>
+    </section>
+
+    <!-- СЕКЦИЯ РЕГИСТРАЦИИ -->
+    <section class="registration-block" aria-labelledby="registration-title">
+        <h2 id="registration-title" class="registration-title">Регистрация</h2>
+        <div class="separator-line"></div>
+        
+        <form class="registration-form" onsubmit="submitForm(event)" novalidate>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName" class="visually-hidden">Имя</label>
+                    <input type="text" id="firstName" class="form-input" placeholder="Имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName" class="visually-hidden">Фамилия</label>
+                    <input type="text" id="lastName" class="form-input" placeholder="Фамилия" required>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <label for="email" class="visually-hidden">Электронная почта</label>
+                <input type="email" id="email" class="form-input" placeholder="Электронная почта" required>
+            </div>
+            <button type="submit" class="register-submit-btn">ГОТОВО</button>
+        </form>
+    </section>
+</main>
+
+<footer class="footer-black-bar">
+    <div class="footer-site-name">Essence</div>
+    <nav class="footer-nav" aria-label="Нижняя навигация">
+        <a href="men.html" class="footer-link">мужское</a>
+        <a href="women.html" class="footer-link">женское</a>
+    </nav>
+</footer>
+
+<script>
+    function submitForm(event) {
+        event.preventDefault();
+        let firstName = document.getElementById('firstName').value;
+        let lastName = document.getElementById('lastName').value;
+        let email = document.getElementById('email').value;
+        
+        alert(`Спасибо за регистрацию, ${firstName} ${lastName}!\nМы отправили письмо на ${email}`);
+        
+        document.getElementById('firstName').value = '';
+        document.getElementById('lastName').value = '';
+        document.getElementById('email').value = '';
+    }
+</script>
+
+</body>
+</html>
